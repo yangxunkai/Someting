@@ -1,0 +1,30 @@
+步骤1、git clone https://github.com/yangxunkai/Weighing.git
+//先将远程库克隆下来，这么做的原因是简化了一些配置的问题
+
+步骤2、将你需要的文件都传到新增的文件夹里保存，准备上传，并进入到这个文件夹里面
+
+步骤3、 git add . 意思是将所有的文件都打包
+
+步骤4、 git commit -m "需要备注的信息"
+
+步骤5、 git push -u origin master 这个操作目的是本地仓库push到github上面 弹出窗口输入密码账号
+
+
+
+注意：
+
+1、git remote add origin [路径名] 
+
+2、git remote remove origin 
+
+3、配置文件：git config --global user.email "你的邮箱"  git config --global user.name "你的名字"
+
+4、创建分支 git branch new1
+
+5、推送到分支 git push -u origin new1
+
+6、删除分支 git push origin new1 删除远程仓库的分支
+
+7、删除new1 分支 git branch -d new1
+
+8、切换到分支 git checkout new1
